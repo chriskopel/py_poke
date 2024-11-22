@@ -1,0 +1,12 @@
+------------------
+2024/22/11
+
+- Modules 1 (basics, math, vars, data types) and 2 (loops, conditionals, load in a file (and display an image)) are finished (first runthrough)
+ - add some exercises at the end of each mini-module for comprehension
+
+- Build Mod 3 (functions)
+
+- Build final game/playground (template?)
+ - some open-ended, lots of room for personal building type game
+ - look into visuals/images?
+  - load an image file in python?
