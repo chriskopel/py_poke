@@ -1,4 +1,13 @@
 ------------------
+2024/25/11
+
+- Mod 3 complete
+- Review all mods and then add exercises for comprehension
+- Then build final game/playground 
+ - see notes from 11/22
+
+
+------------------
 2024/22/11
 
 - Modules 1 (basics, math, vars, data types) and 2 (loops, conditionals, load in a file (and display an image)) are finished (first runthrough)
