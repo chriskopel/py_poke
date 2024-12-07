@@ -1,17 +1,33 @@
 ------------------
-2024/26/11
+2024/12/06
+
+- On to scraping the individual moves of each Pokemon...
+ -- pokemon_db_scrape.ipynb at the bottom has the strategy we should try in bulk:
+1. Go through each Pokemon from pokemon_main_stats.csv (need to look into dupes like charizard y etc.)
+2. Grab the first gen that pokemon appeared in (see last scrape)
+3. Loop through each url for that pokemon appended to their first url
+ - e.g. https://pokemondb.net/pokedex/bulbasaur/moves/1
+ -      https://pokemondb.net/pokedex/inteleon/moves/8
+4. Scrape that move list (their original moves)
+ - see scraping method above 3.
+ - also need to unique this list? Might have dupes (e.g. red/blue + yellow are all gen 1 but have two separate tabs)
+5. Link that together with pokemon_moves_data.csv during the pick_em to get all the move stats for the randomly selected move for that turn
+
+
+------------------
+2024/11/26
 
 - Mods 2&3 have been reviewed for clarity/engagment and now have exercises for comprehension
 
 
 ------------------
-2024/26/11
+2024/11/26
 
 - Mod 1 has been reviewed for clarity/engagment and now has exercises for comprehension
 
 
 ------------------
-2024/25/11
+2024/11/25
 
 - Mod 3 complete
 - Review all mods and then add exercises for comprehension
@@ -20,7 +36,7 @@
 
 
 ------------------
-2024/22/11
+2024/11/22
 
 - Modules 1 (basics, math, vars, data types) and 2 (loops, conditionals, load in a file (and display an image)) are finished (first runthrough)
  - add some exercises at the end of each mini-module for comprehension
