@@ -1,4 +1,29 @@
 ------------------
+2024/12/11
+- Tried v0_1 with this with chatgpt and was starting to make it dizzy
+- Tried v0_2 with perplexity and it nailed it
+ - simple version working successfully
+ - continue with the perplexity thread 
+- Added type_effectiveness dictionary
+
+## Now work on:
+# Printing out whether super effective, not very effective
+# PP
+# Effects
+# Simplified? damage calc - what are we missing?
+"""
+Note that this is a simplified version and doesn't include all Pokémon battle mechanics 
+ (such as status effects, critical hits, or move PP). 
+ You can expand on this base to add more complex mechanics as needed.
+"""
+
+------------------
+2024/12/09
+- Scraped indiv moves of each pokemon.
+ - grabbed all moves, not the moves of the orig generation
+ - 2 final output dicts: with clean name and with orig name
+
+------------------
 2024/12/06
 
 - On to scraping the individual moves of each Pokemon...
