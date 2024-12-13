@@ -1,4 +1,8 @@
 ------------------
+2024/12/12
+- Added in crit chance, accuracy, text for crit/super/not very effective when applicable
+
+------------------
 2024/12/11
 - Tried v0_1 with this with chatgpt and was starting to make it dizzy
 - Tried v0_2 with perplexity and it nailed it
